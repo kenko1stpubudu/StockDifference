@@ -513,7 +513,7 @@ function runAnalysis() {
   // BB: header row is index 0, data from index 1
   // Col D = index 3 (Barcode), Col E = index 4 (Quantity)
   // Skip non-barcode summary rows
-  const SKIP_LABELS = ['මුළු ප්‍රමාණය', 'export date', 'total', 'subtotal'];
+  const SKIP_LABELS = ['මුළු ප්‍රමාණය', 'export date', 'total','Total Quantity' 'subtotal'];
   const bbMap = new Map();
   for (let i = 1; i < bbData.length; i++) {
     const row = bbData[i];
